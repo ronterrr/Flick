@@ -1,4 +1,4 @@
-import data from "./temp.json";
+import data from "../Data/temp.json";
 import PhotoCard from "./PhotoCard";
 
 function PhotoSection() {
