@@ -33,6 +33,10 @@ body {
     color: green;
 }
 
+body.dark-mode .Header h3:hover{
+    color: lightblue;
+}
+
 .Header img{
     height: 30px;
     transition: all ease-in-out 0.3s;
