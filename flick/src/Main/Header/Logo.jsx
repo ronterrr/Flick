@@ -13,14 +13,16 @@ function Logo() {
   }, [darkMode]);
   return (
     <>
-      <img
-        src={darkMd}
-        alt="darken"
-        onClick={() => {
-          setDarkMode(!darkMode);
-        }}
-      />
-      <h3>flick</h3>
+      <div className="logo">
+        <img
+          src={darkMd}
+          alt="darken"
+          onClick={() => {
+            setDarkMode(!darkMode);
+          }}
+        />
+        <h3>flick</h3>
+      </div>
     </>
   );
 }
