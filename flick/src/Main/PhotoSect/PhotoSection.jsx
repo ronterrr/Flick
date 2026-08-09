@@ -1,11 +1,14 @@
 import data from "../Data/temp.json";
 import PhotoCard from "./PhotoCard";
 
-function PhotoSection() {
+function PhotoSection({filteredData}) {
+  if(filteredData === "" || !filteredData){
+    filteredData = data;
+  }
   return (
     <>
       <div className="photo-section">
-        {data.map((i) => {
+        {filteredData.map((i) => {
           return (
             <PhotoCard
             key={i.id}
