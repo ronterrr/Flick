@@ -63,10 +63,11 @@ body.dark-mode .Header img{
 .photo-card{
     margin: 5px 0 0 10px;
     user-select: none;
+    max-width: 200px;
 }
 
 .photo-card img{
-    max-height: 300px;
+    max-width: 200px;
     border-radius: 10px;
     transition:  all ease-in-out 0.5s;
 }
