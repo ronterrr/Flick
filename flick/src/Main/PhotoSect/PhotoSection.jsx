@@ -1,8 +1,8 @@
 import data from "../Data/temp.json";
 import PhotoCard from "./PhotoCard";
 
-function PhotoSection({filteredData}) {
-  if(filteredData === "" || !filteredData){
+function PhotoSection({ filteredData }) {
+  if (filteredData === "" || !filteredData) {
     filteredData = data;
   }
   return (
@@ -11,13 +11,16 @@ function PhotoSection({filteredData}) {
         {filteredData.map((i) => {
           return (
             <PhotoCard
-            key={i.id}
+              key={i.id}
               photo={i.photo}
               caption={i.caption}
               username={i.username}
             />
           );
         })}
+      </div>
+      <div className="no-results">
+        {filteredData.length === 0 ? <h3>No Search Results Found. Keep Flick-ing!</h3> : null}
       </div>
     </>
   );
