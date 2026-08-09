@@ -1,10 +1,16 @@
 @font-face {
-  font-family: "Logo";
+  font-family: "logo";
   src: url("../assets/fonts/BitcountSingle-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+    font-family: "caption";
+    src: url("../assets/fonts/Michroma-Regular.ttf");
+}
+
 
 body {
   margin: 0;
@@ -20,10 +26,11 @@ body {
   user-select: none;
   display: flex;
   align-items: center;
+  margin: 5px 0 0 10px;
 }
 
 .Header h3 {
-  font-family: "Logo";
+  font-family: "logo";
   margin: 5px 0 0 10px;
   font-size: 20px;
   transition: all ease-in-out 0.5s;
@@ -44,4 +51,38 @@ body.dark-mode .Header h3:hover{
 
 body.dark-mode .Header img{
     filter: invert(1);
+}
+
+.photo-section{
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.photo-card{
+    margin: 5px 0 0 10px;
+    user-select: none;
+}
+
+.photo-card img{
+    max-height: 300px;
+    border-radius: 10px;
+    transition:  all ease-in-out 0.5s;
+}
+
+.photo-card img:hover{
+    border-radius: 3px;
+}
+
+.photo-card .caption{
+    margin: 0;
+    font-family: 'caption';
+    font-size: 15px;
+}
+
+.photo-card .username{
+    margin: 5px 0 0 0;
+    font-family: 'caption';
+    font-size: 12px;
 }

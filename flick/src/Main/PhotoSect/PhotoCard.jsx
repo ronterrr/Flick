@@ -4,7 +4,7 @@ function PhotoCard({ photo, caption, username }) {
       <div className="photo-card">
         <img src={photo} />
         <p className="caption">{caption}</p>
-        <p className="username">{username}</p>
+        <p className="username">~ {username}</p>
       </div>
     </>
   );
