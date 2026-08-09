@@ -8,6 +8,7 @@ function PhotoSection() {
         {data.map((i) => {
           return (
             <PhotoCard
+            key={i.id}
               photo={i.photo}
               caption={i.caption}
               username={i.username}
