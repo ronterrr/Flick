@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: "caption";
+    font-family: "primary";
     src: url("../assets/fonts/Michroma-Regular.ttf");
 }
 
@@ -49,6 +49,32 @@ body.dark-mode .Header h3:hover{
     transition: all ease-in-out 0.3s;
 }
 
+.Header form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Header form .search{
+    margin: 0 0 0 10px;
+    font-family: 'primary';
+    border-style: ridge;
+    height: 16px;
+}
+
+.Header form .submit{
+    margin: 0 0 0 5px;
+    font-family: 'logo';
+    transition: all ease-in-out 0.3s;
+}
+
+.Header form .submit:hover{
+    cursor: pointer;
+    filter: invert(1);
+}
+
 body.dark-mode .Header img{
     filter: invert(1);
 }
@@ -78,12 +104,12 @@ body.dark-mode .Header img{
 
 .photo-card .caption{
     margin: 0;
-    font-family: 'caption';
+    font-family: 'primary';
     font-size: 15px;
 }
 
 .photo-card .username{
     margin: 5px 0 0 0;
-    font-family: 'caption';
+    font-family: 'primary';
     font-size: 12px;
 }
