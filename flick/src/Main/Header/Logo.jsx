@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import darkMd from "../assets/images/dark-mode.svg";
+import darkMd from "../../assets/images/dark-mode.svg";
 
-function Header() {
+function Logo() {
   const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
@@ -11,9 +11,8 @@ function Header() {
       document.body.classList.remove("dark-mode");
     }
   }, [darkMode]);
-
   return (
-    <div className="Header">
+    <>
       <img
         src={darkMd}
         alt="darken"
@@ -22,17 +21,8 @@ function Header() {
         }}
       />
       <h3>flick</h3>
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          console.log("submitted");
-        }}
-      >
-        <input type="text" placeholder="flick-it" className="search" />
-        <input type="submit" className="submit" value="search" />
-      </form>
-    </div>
+    </>
   );
 }
 
-export default Header;
+export default Logo;

@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "./Header/Header";
 import PhotoSection from "./PhotoSect/PhotoSection";
 
 import './index.css'
