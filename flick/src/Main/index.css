@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Logo";
+  src: url("../assets/fonts/BitcountSingle-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  transition: all ease-in-out 0.5s;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.Header {
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+
+.Header h3 {
+  font-family: "Logo";
+  margin: 5px 0 0 10px;
+  font-size: 20px;
+  transition: all ease-in-out 0.5s;
+}
+
+.Header h3:hover{
+    color: green;
+}
+
+.Header img{
+    height: 30px;
+    transition: all ease-in-out 0.3s;
+}
+
+body.dark-mode .Header img{
+    filter: invert(1);
+}
