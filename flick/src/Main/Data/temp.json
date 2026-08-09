@@ -64,5 +64,17 @@
     "photo": "https://images.pexels.com/photos/38788118/pexels-photo-38788118.jpeg",
     "caption": "by the beach",
     "username": "luis carlos acosta"
+  },
+  {
+    "id": 12,
+    "photo": "https://images.pexels.com/photos/21760691/pexels-photo-21760691.jpeg",
+    "caption": "studio work",
+    "username": "adeoye daniel"
+  },
+  {
+    "id": 13,
+    "photo": "https://images.pexels.com/photos/38682095/pexels-photo-38682095.jpeg",
+    "caption": "something about flamingoes",
+    "username": "laone marques"
   }
 ]
