@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) {
+    .Header form .search{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .user-profile p{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .logo h3{
+        display: none;
+    }
+}

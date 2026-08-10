@@ -4,6 +4,7 @@ import PhotoSection from "./PhotoSect/PhotoSection";
 import data from "./Data/temp.json";
 
 import "./index.css";
+import "./responsive.css";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
