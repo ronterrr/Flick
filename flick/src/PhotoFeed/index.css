@@ -67,6 +67,12 @@ body.dark-mode .Header h3:hover{
     font-family: 'primary';
     border-style: ridge;
     height: 16px;
+    border-color: rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.5s;
+}
+
+body.dark-mode .Header form .search{
+    background: black;
 }
 
 .Header form .submit{
@@ -175,7 +181,7 @@ body.dark-mode .Header .logo img{
 }
 
 .search-button img{
-    height: 23px;
+    height: 18px;
     margin: 0 0 0 5px;
 }
 

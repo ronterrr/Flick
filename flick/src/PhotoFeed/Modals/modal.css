@@ -44,6 +44,7 @@ body.dark-mode .modal-content{
     font-size: 1.5rem;
     cursor: pointer;
     transition: color ease-in-out 0.2s;
+    color: white;
 }
 
 body.dark-mode .modal-close-btn{
