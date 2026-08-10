@@ -1,11 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-import App from './PhotoFeed'
-import Login from './Login'
+import App from "./PhotoFeed";
+import Login from "./Login";
 
-createRoot(document.getElementById('root')).render(
+import "./Global/dragblock.css";
+
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Login />
+    <App />
   </StrictMode>,
-)
+);
