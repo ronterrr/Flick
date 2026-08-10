@@ -114,8 +114,8 @@ body.dark-mode .Header .logo img{
 
 .photo-section{
     margin: 10px 0 15px 0;
-    columns: 5 200px;
-    column-gap: 15px;
+    columns: 7 100px;
+    column-gap: 10px;
     max-width: 100%;
     padding: 0 10px;
 }
@@ -147,13 +147,13 @@ body.dark-mode .Header .logo img{
 .photo-card .caption{
     margin: 0;
     font-family: 'primary';
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .photo-card .username{
     margin: 2px 0 0 0;
     font-family: 'primary';
-    font-size: 12px;
+    font-size: 8px;
 }
 
 .no-results{
