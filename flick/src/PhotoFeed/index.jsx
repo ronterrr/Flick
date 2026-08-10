@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Header from "./Header/Header";
+import NavBar from "./Navigation/NavBar";
 import PhotoSection from "./PhotoSect/PhotoSection";
 import data from "./Data/temp.json";
 
@@ -23,6 +24,7 @@ function App() {
   return (
     <>
       <Header searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+      <NavBar />
       <PhotoSection filteredData={filteredData} />
     </>
   );
