@@ -1,8 +1,7 @@
 import { useState } from "react";
 
 function SearchBar({ searchTerm, setSearchTerm }) {
-
-    const [phrase, setPhrase] = useState("");
+  const [phrase, setPhrase] = useState("");
   return (
     <>
       <form
@@ -12,9 +11,15 @@ function SearchBar({ searchTerm, setSearchTerm }) {
           setSearchTerm(phrase);
         }}
       >
-        <input type="text" placeholder="flick-it" className="search" onChange={(e)=>{
+        <input
+          type="text"
+          placeholder="flick-it"
+          className="search"
+          spellCheck="false"
+          onChange={(e) => {
             setPhrase(e.target.value);
-        }}/>
+          }}
+        />
         <input type="submit" className="submit" value="search" />
       </form>
     </>
