@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "../Global/Header/Header";
 import NavBar from "./Navigation/NavBar";
 import PhotoSection from "./PhotoSect/PhotoSection";
-import data from "./Data/temp.json";
+import data from "../Global/Data/temp.json";
 
 import "./index.css";
 import "./responsive.css";

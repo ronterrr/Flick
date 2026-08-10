@@ -1,4 +1,4 @@
-import userData from "../../PhotoFeed/Data/userData.json";
+import userData from "../Data/userData.json";
 
 function UserProfile() {
   return (
