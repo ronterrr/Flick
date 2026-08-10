@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import searchIcon from "../../assets/images/search.svg";
+
 function SearchBar({ searchTerm, setSearchTerm }) {
   const [phrase, setPhrase] = useState("");
   return (
@@ -20,7 +22,10 @@ function SearchBar({ searchTerm, setSearchTerm }) {
             setPhrase(e.target.value);
           }}
         />
-        <input type="submit" className="submit" value="search" />
+        <button type="submit" className="search-button">
+        <img src={searchIcon} alt="search"/>
+        </button>
+        {/* <input type="submit" className="submit" value="search" /> */}
       </form>
     </>
   );

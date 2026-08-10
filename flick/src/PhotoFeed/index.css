@@ -163,3 +163,22 @@ body.dark-mode .Header .logo img{
     margin: 40px 0 0 0;
     font-family: 'primary';
 }
+
+.search-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button img{
+    height: 23px;
+    margin: 0 0 0 5px;
+}
+
+body.dark-mode .search-button img{
+    filter: invert(1);
+}
