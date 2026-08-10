@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Header from "./Header/Header";
+import Header from "../Global/Header/Header";
 import NavBar from "./Navigation/NavBar";
 import PhotoSection from "./PhotoSect/PhotoSection";
 import data from "./Data/temp.json";
