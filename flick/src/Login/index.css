@@ -17,7 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 180px 0 0 0;
+    margin: 0 0 0 0;
     user-select: none;
 }
 
@@ -56,4 +56,30 @@
 
 body.dark-mode .login-form .password img{
     filter: invert(1);
+}
+
+.log-in .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 150px 0 30px 0;
+    gap: 10px;
+}
+
+.log-in .logo img{
+    height: 50px;
+    transition: all ease-in-out 0.3s;
+}
+
+body.dark-mode .log-in .logo img{
+    filter: invert(1);
+}
+
+.log-in .logo h3{
+    font-family: 'logo';
+    font-size: 25px;
+    margin: 0;
+    padding-top: 5px;
 }

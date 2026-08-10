@@ -1,4 +1,4 @@
-import Header from "../Global/Header/Header";
+import Logo from "../Global/Header/Logo";
 import Form from "./Form";
 
 import "./index.css";
@@ -6,8 +6,10 @@ import "./index.css";
 function Login() {
   return (
     <>
-      <Header />
-      <Form />
+      <div className="log-in">
+        <Logo />
+        <Form />
+      </div>
     </>
   );
 }
