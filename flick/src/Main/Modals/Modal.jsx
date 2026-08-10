@@ -2,8 +2,11 @@ import "./modal.css";
 
 function Modal({ isOpen, onClose, children }) {
   if (!isOpen) {
+    document.body.classList.remove('modal-open');
     return null;
   }
+
+  document.body.classList.add('modal-open');
 
   return (
     <div className="modal-backdrop" onClick={onClose}>

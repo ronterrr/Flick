@@ -15,12 +15,15 @@ function PhotoSection({ filteredData }) {
               photo={i.photo}
               caption={i.caption}
               username={i.username}
+              likeCount={i.likeCount}
             />
           );
         })}
       </div>
       <div className="no-results">
-        {filteredData.length === 0 ? <h3>No Search Results Found. Keep Flick-ing!</h3> : null}
+        {filteredData.length === 0 ? (
+          <h3>No Search Results Found. Keep Flick-ing!</h3>
+        ) : null}
       </div>
     </>
   );

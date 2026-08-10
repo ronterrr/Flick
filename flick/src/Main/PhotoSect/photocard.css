@@ -1,0 +1,49 @@
+.post-metrics{
+    display: flex;
+    gap: 10px;
+}
+
+.post-metrics .like-btn{
+    height: 20px;
+    filter: invert(1);
+    transition: all ease-in-out 0.5s;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+
+.post-metrics .like-btn:hover{
+    cursor: pointer;
+}
+
+.likes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.likes p{
+    margin: 0 0 0 3px;
+    font-size: 8px;
+}
+
+.post-metrics .comment-btn{
+    height: 20px;
+    filter: invert(1);
+    margin-left: 2px;
+}
+
+.post-metrics .comment-btn:hover{
+    cursor: pointer;
+}
+
+.post-metrics .save-btn{
+    height: 16px;
+    filter: invert(1);
+    margin-left: 2px;
+    opacity: 0.8;
+    padding-bottom: 1px;
+}
+
+.post-metrics .save-btn:hover{
+    cursor: pointer;
+}

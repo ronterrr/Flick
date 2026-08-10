@@ -3,78 +3,91 @@
     "id": 1,
     "photo": "https://images.pexels.com/photos/38814083/pexels-photo-38814083.jpeg",
     "caption": "in zaria, nigeria with some friends",
-    "username": "shots by lb"
+    "username": "shots by lb",
+    "likeCount": 200
   },
   {
     "id": 2,
     "photo": "https://images.pexels.com/photos/18734111/pexels-photo-18734111.jpeg",
     "caption": "portrait of women",
-    "username": "bruce taylor"
+    "username": "bruce taylor",
+    "likeCount": 145
   },
   {
     "id": 3,
     "photo": "https://images.pexels.com/photos/36469855/pexels-photo-36469855.jpeg",
     "caption": "saturday",
-    "username": "khalifa yahaya"
+    "username": "khalifa yahaya",
+    "likeCount": 88
   },
   {
     "id": 4,
     "photo": "https://images.pexels.com/photos/37489490/pexels-photo-37489490.jpeg",
     "caption": "stadium",
-    "username": "kold shots"
+    "username": "kold shots",
+    "likeCount": 310
   },
   {
     "id": 5,
     "photo": "https://images.pexels.com/photos/5125390/pexels-photo-5125390.jpeg",
     "caption": "elephant",
-    "username": "roger brown"
+    "username": "roger brown",
+    "likeCount": 520
   },
   {
     "id": 6,
     "photo": "https://images.pexels.com/photos/36298878/pexels-photo-36298878.jpeg",
     "caption": "safari",
-    "username": "amos getanda"
+    "username": "amos getanda",
+    "likeCount": 95
   },
   {
     "id": 7,
     "photo": "https://images.pexels.com/photos/14013015/pexels-photo-14013015.jpeg",
     "caption": "kajiado",
-    "username": "william kyule"
+    "username": "william kyule",
+    "likeCount": 175
   },
   {
     "id": 8,
     "photo": "https://images.pexels.com/photos/38751884/pexels-photo-38751884.jpeg",
     "caption": "equator check",
-    "username": "trickpix"
+    "username": "trickpix",
+    "likeCount": 230
   },
   {
     "id": 9,
     "photo": "https://images.pexels.com/photos/38152015/pexels-photo-38152015.jpeg",
     "caption": "flowers",
-    "username": "kofi shelby"
+    "username": "kofi shelby",
+    "likeCount": 412
   },
   {
     "id": 10,
     "photo": "https://images.pexels.com/photos/32032747/pexels-photo-32032747.jpeg",
     "caption": "ecuador",
-    "username": "jhair guerrero"
+    "username": "jhair guerrero",
+    "likeCount": 67
   },
   {
     "id": 11,
     "photo": "https://images.pexels.com/photos/38788118/pexels-photo-38788118.jpeg",
     "caption": "by the beach",
-    "username": "luis carlos acosta"
+    "username": "luis carlos acosta",
+    "likeCount": 189
   },
   {
     "id": 12,
     "photo": "https://images.pexels.com/photos/21760691/pexels-photo-21760691.jpeg",
     "caption": "studio work",
-    "username": "adeoye daniel"
+    "username": "adeoye daniel",
+    "likeCount": 340
   },
   {
     "id": 13,
     "photo": "https://images.pexels.com/photos/38682095/pexels-photo-38682095.jpeg",
     "caption": "something about flamingoes",
-    "username": "laone marques"
+    "username": "laone marques",
+    "likeCount": 450
   }
 ]
