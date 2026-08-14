@@ -1,5 +1,5 @@
 .user-page .side-bar{
-    max-width: 20%;
+    max-width: 25%;
     margin: 0 0 0 10px;
     user-select: none;
     -moz-user-select: none;
@@ -14,14 +14,36 @@
     font-family: 'primary';
     font-size: 15px;
     padding: 10px;
-    transition: font-size ease-in-out 0.5s;
+    transition: font-size ease-in-out 0.2s;
+    transition: color ease-in-out 0.3s;
+    white-space: nowrap;
 }
 
 .user-page .side-bar h4:hover{
     max-width: 100%;
-    font-size: 17px;
+    font-size: 16px;
+    white-space: nowrap;
+    transition: all ease-in-out 0.2s;
 }
 
 .user-page .side-bar .signout-btn{
     color: red;
+}
+
+.user-page .side-bar .option-selected{
+    font-size: 18px;
+    color: green;
+}
+
+.user-page .side-bar .option-selected:hover{
+    font-size: 18px;
+    color: green;
+}
+
+body.dark-mode .user-page .side-bar .option-selected{
+    color: lightblue;
+}
+
+body.dark-mode .user-page .side-bar .option-selected:hover{
+    color: lightblue;
 }
