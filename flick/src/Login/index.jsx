@@ -3,12 +3,12 @@ import Form from "./Form";
 
 import "./index.css";
 
-function Login({ setLoggedIn }) {
+function Login({ setLoggedIn, setUserIndex }) {
   return (
     <>
       <div className="log-in">
         <Logo />
-        <Form setLoggedIn={setLoggedIn}/>
+        <Form setLoggedIn={setLoggedIn} setUserIndex={setUserIndex}/>
       </div>
     </>
   );

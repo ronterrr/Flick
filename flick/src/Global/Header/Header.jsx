@@ -2,12 +2,12 @@ import Logo from "./Logo";
 import SearchBar from "./SearchBar";
 import UserProfile from "./UserProfile";
 
-function Header({ searchTerm, setSearchTerm }) {
+function Header({ searchTerm, setSearchTerm, userIndex }) {
   return (
     <div className="Header">
       <Logo />
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-      <UserProfile />
+      <UserProfile userIndex={userIndex} />
     </div>
   );
 }

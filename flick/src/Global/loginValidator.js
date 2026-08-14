@@ -5,11 +5,11 @@ function loginValidator(username, password) {
     return i.username === username;
   });
   if(userIndex<0){
-    return 'invalid'
+    return -2
   } else if(data[userIndex].password!==password){
-    return 'no match'
+    return -1
   } else{
-    return 'match'
+    return userIndex
   }
 }
 
