@@ -4,8 +4,8 @@ function UserProfile() {
   return (
     <>
       <div className="user-profile">
-        <p>{userData.name}</p>
-        <img src={userData.src} />
+        <p>{userData[0].name}</p>
+        <img src={userData[0].src} />
       </div>
     </>
   );
