@@ -7,10 +7,11 @@ import data from '../Global/Data/userData.json';
 
 import "./index.css";
 
-function UserPage({ userIndex = 0 }) {
+function UserPage({ userIndex = 9 }) {
 
     const username = data[userIndex].username;
     const email = data[userIndex].email;
+    const name = data[userIndex].name;
   return (
     <>
       <div className="user-page">
@@ -22,7 +23,7 @@ function UserPage({ userIndex = 0 }) {
         <h3 className="settings-header">Settings</h3>
         <div className="user-page-body">
           <SideBar />
-          <Account username={username} email={email}/>
+          <Account username={username} email={email} name={name}/>
         </div>
       </div>
     </>

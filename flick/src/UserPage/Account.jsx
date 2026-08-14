@@ -1,9 +1,10 @@
 import userIcon from "../assets/images/user-icon.svg";
-import mailIcon from '../assets/images/mail.svg'
+import mailIcon from '../assets/images/mail.svg';
+import nameIcon from '../assets/images/name-icon.svg'
 
 import "./account.css";
 
-function Account({ username, email }) {
+function Account({ username, email, name }) {
   return (
     <>
       <div className="account">
@@ -18,6 +19,11 @@ function Account({ username, email }) {
           <img src={mailIcon} />
           <p>email: </p>
           <p>{email}</p>
+        </div>
+        <div className="info-sect">
+            <img src={nameIcon}/>
+            <p>name: </p>
+            <p>{name}</p>
         </div>
       </div>
     </>
