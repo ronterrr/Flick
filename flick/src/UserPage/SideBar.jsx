@@ -1,17 +1,16 @@
 import { useState } from "react";
 import "./sidebar.css";
 
-function SideBar() {
-
-    const [selectedOption, setSelectedOption] = useState('Account');
+function SideBar({ setActiveOption }) {
+  const [selectedOption, setSelectedOption] = useState("Account");
 
   const menuItems = [
-    { name: "Account" },
-    { name: "Privacy & Safety" },
-    { name: "Security & Login" },
-    { name: "Notifications" },
-    { name: "Content & Display Preferences" },
-    { name: "Support & Legal" },
+    { name: "Account", itemID: 0 },
+    { name: "Privacy & Safety", itemID: 1 },
+    { name: "Security & Login", itemID: 2 },
+    { name: "Notifications", itemID: 3 },
+    { name: "Content & Display Preferences", itemID: 4 },
+    { name: "Support & Legal", itemID: 5 },
   ];
 
   return (
@@ -20,14 +19,18 @@ function SideBar() {
         <hr />
 
         {menuItems.map((i) => {
-          return <h4 
-          key={i.name}
-          onClick={() => {
-            setSelectedOption(i.name)
-          }}
-          className={selectedOption === i.name ? 'option-selected' : ''}>
-            {i.name}
-            </h4>;
+          return (
+            <h4
+              key={i.name}
+              onClick={() => {
+                setSelectedOption(i.name);
+                setActiveOption(i.itemID);
+              }}
+              className={selectedOption === i.name ? "option-selected" : ""}
+            >
+              {i.name}
+            </h4>
+          );
         })}
 
         <h4 className="signout-btn">SIGN OUT</h4>
