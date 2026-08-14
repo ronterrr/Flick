@@ -33,6 +33,9 @@ function Main() {
               )
             }
           />
+          <Route
+            path="*"
+            element={<Navigate to="/Flick/" replace/>}/>
         </Routes>
       </BrowserRouter>
 
