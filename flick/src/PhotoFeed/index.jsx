@@ -7,7 +7,7 @@ import data from "../Global/Data/temp.json";
 import "./index.css";
 import "./responsive.css";
 
-function App() {
+function App({ userIndex }) {
   const [searchTerm, setSearchTerm] = useState("");
 
   const filteredData =
@@ -23,7 +23,11 @@ function App() {
 
   return (
     <>
-      <Header searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+      <Header
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        userIndex={userIndex}
+      />
       <NavBar />
       <PhotoSection filteredData={filteredData} />
     </>

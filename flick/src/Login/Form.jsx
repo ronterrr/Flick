@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import loginValidator from "../Global/loginValidator";
 
-function Form({ setLoggedIn }) {
+function Form({ setLoggedIn, setUserIndex }) {
   const [passShow, setPassShow] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -16,8 +16,12 @@ function Form({ setLoggedIn }) {
           e.preventDefault();
           console.log(loginValidator(username, password));
 
-          if(loginValidator(username, password) === "match"){
+          const userIndex = loginValidator(username, password);
+
+          if(userIndex >= 0){            
+            localStorage.setItem("loggedStatus", "true");
             setLoggedIn(true);
+            setUserIndex(userIndex);
           }
         }}
       >
@@ -33,7 +37,7 @@ function Form({ setLoggedIn }) {
         />
         <div className="password">
           <input
-            type={passShow === true ? "password" : "text"}
+            type={passShow === true ? "text" : "password"}
             placeholder="password"
             value={password}
             onChange={(e) => {
@@ -41,7 +45,7 @@ function Form({ setLoggedIn }) {
             }}
           />
           <img
-            src={passShow === true ? eyeOff : eye}
+            src={passShow === true ? eye : eyeOff}
             onClick={() => {
               setPassShow(!passShow);
             }}

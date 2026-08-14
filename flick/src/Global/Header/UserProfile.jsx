@@ -1,11 +1,11 @@
 import userData from "../Data/userData.json";
 
-function UserProfile() {
+function UserProfile({userIndex}) {
   return (
     <>
       <div className="user-profile">
-        <p>{userData[0].name}</p>
-        <img src={userData[0].src} />
+        <p>{userData[userIndex].name}</p>
+        <img src={userData[userIndex].src} />
       </div>
     </>
   );
