@@ -1,4 +1,4 @@
-.user-page{
+.user-page-header{
     user-select: none;
     -moz-user-select: none;
 
@@ -6,12 +6,12 @@
     margin: 10px 0 0 10px;
 }
 
-.user-page .logo{
+.user-page-header .logo{
     display: flex;
     align-items: center;
 }
 
-.user-page .logo h3{
+.user-page-header .logo h3{
     font-family: 'logo';
     margin: 5px 0 0 10px;
     font-size: 20px;
@@ -19,46 +19,50 @@
     cursor: pointer;
 }
 
-.user-page .logo h3:hover{
+.user-page-header .logo h3:hover{
     color: green;
 }
 
-body.dark-mode .user-page .logo h3:hover{
+body.dark-mode .user-page-header .logo h3:hover{
     color: lightblue;
 }
 
-.user-page .logo img{
+.user-page-header .logo img{
     height: 30px;
 }
 
-body.dark-mode .user-page .logo img{
+body.dark-mode .user-page-header .logo img{
     filter: invert(1);
 }
 
-.user-page .user-profile{
+.user-page-header .user-profile{
     display: flex;
     align-items: center;
     margin: 0 5px 0 auto;
 }
 
-.user-page .user-profile img{
+.user-page-header .user-profile img{
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
 
-.user-page .user-profile p{
+.user-page-header .user-profile p{
     font-family: 'primary';
     font-size: 10px;
     margin: 0 5px 0 0;
     transition: all ease-in-out 0.5s;
 }
 
-.user-page .user-profile p:hover{
+.user-page-header .user-profile p:hover{
     cursor: pointer;
     color: green;
 }
 
-body.dark-mode .user-page .user-profile p:hover{
+body.dark-mode .user-page-header .user-profile p:hover{
     color: lightblue;
+}
+
+.user-page hr{
+    opacity: 0.5;
 }

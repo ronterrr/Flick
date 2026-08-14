@@ -1,0 +1,27 @@
+.user-page .side-bar{
+    max-width: 20%;
+    margin: 0 0 0 10px;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+.user-page .side-bar h3{
+    font-family: 'primary';
+}
+
+.user-page .side-bar h4{
+    max-width: 80%;
+    font-family: 'primary';
+    font-size: 15px;
+    padding: 10px;
+    transition: font-size ease-in-out 0.5s;
+}
+
+.user-page .side-bar h4:hover{
+    max-width: 100%;
+    font-size: 17px;
+}
+
+.user-page .side-bar .signout-btn{
+    color: red;
+}
