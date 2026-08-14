@@ -2,6 +2,7 @@ import { Route, Routes, BrowserRouter, Navigate } from "react-router";
 
 import App from "./PhotoFeed";
 import Login from "./Login";
+import UserPage from "./UserPage";
 
 import loginValidator from "./Global/loginValidator";
 import { useEffect, useState } from "react";
@@ -22,7 +23,7 @@ function Main() {
   const [userIndex, setUserIndex] = useState();
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route
             path="/Flick/"
@@ -42,7 +43,8 @@ function Main() {
           />
           <Route path="*" element={<Navigate to="/Flick/" replace />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <UserPage userIndex={userIndex}/>
     </>
   );
 }

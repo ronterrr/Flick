@@ -1,0 +1,64 @@
+.user-page{
+    user-select: none;
+    -moz-user-select: none;
+
+    display: flex;
+    margin: 10px 0 0 10px;
+}
+
+.user-page .logo{
+    display: flex;
+    align-items: center;
+}
+
+.user-page .logo h3{
+    font-family: 'logo';
+    margin: 5px 0 0 10px;
+    font-size: 20px;
+    transition: color ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.user-page .logo h3:hover{
+    color: green;
+}
+
+body.dark-mode .user-page .logo h3:hover{
+    color: lightblue;
+}
+
+.user-page .logo img{
+    height: 30px;
+}
+
+body.dark-mode .user-page .logo img{
+    filter: invert(1);
+}
+
+.user-page .user-profile{
+    display: flex;
+    align-items: center;
+    margin: 0 5px 0 auto;
+}
+
+.user-page .user-profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.user-page .user-profile p{
+    font-family: 'primary';
+    font-size: 10px;
+    margin: 0 5px 0 0;
+    transition: all ease-in-out 0.5s;
+}
+
+.user-page .user-profile p:hover{
+    cursor: pointer;
+    color: green;
+}
+
+body.dark-mode .user-page .user-profile p:hover{
+    color: lightblue;
+}
