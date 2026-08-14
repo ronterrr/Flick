@@ -5,10 +5,6 @@
     -moz-user-select: none;
 }
 
-.user-page .side-bar h3{
-    font-family: 'primary';
-}
-
 .user-page .side-bar h4{
     max-width: 80%;
     font-family: 'primary';

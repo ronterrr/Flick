@@ -66,3 +66,13 @@ body.dark-mode .user-page-header .user-profile p:hover{
 .user-page hr{
     opacity: 0.5;
 }
+
+.user-page-body{
+    display: flex;
+}
+
+.user-page .settings-header{
+    font-family: 'primary';
+    margin: 5px 0 5px 10px;
+    font-size: 25px;
+}

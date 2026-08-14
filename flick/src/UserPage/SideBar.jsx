@@ -17,7 +17,6 @@ function SideBar() {
   return (
     <>
       <div className="side-bar">
-        <h3>Settings</h3>
         <hr />
 
         {menuItems.map((i) => {
