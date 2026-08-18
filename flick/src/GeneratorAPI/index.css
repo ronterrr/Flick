@@ -32,11 +32,9 @@ body.dark-mode .gen-api .top-section .logo h3:hover {
   color: lightblue;
 }
 
-
 body.dark-mode .gen-api .top-section .user-profile h3:hover {
   color: lightblue;
 }
-
 
 .gen-api .top-section .logo img {
   height: 30px;
@@ -80,3 +78,68 @@ body.dark-mode .gen-api .top-section .logo img {
   margin: 0 0 0 auto;
   transform: translateX(-5%);
 }
+
+.genre-form {
+  margin: 50px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  -moz-user-select: none;
+  font-family: "primary";
+  font-size: 15px;
+}
+
+.genre-form input {
+  margin: 2px 0 0 0;
+  text-align: center;
+  font-family: "primary";
+}
+
+.genre-form .genre-count{
+    border-color: rgba(0, 0, 0, 0.1);
+    margin: 5px 0 0 0;
+    transition: all ease-in-out 0.5s;
+}
+
+body.dark-mode .genre-form .genre-count{
+    color: white;
+    background-color: black;
+}
+
+.genre-form .genre-me{
+    border-color: rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+    transition: all ease-in-out 0.5s;
+    font-size: 12px;
+}
+
+.genre-form .genre-me:hover{
+    border-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+body.dark-mode .genre-form .genre-me{
+    background-color: black;
+    color: white;
+}
+
+
+.display-sect ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  -moz-user-select: none;
+  margin: 50px 0 50px 0;
+}
+
+.display-sect ol li {
+  font-family: "primary";
+  font-size: 13px;
+  margin: 0 0 5px 0;
+}
+
+
