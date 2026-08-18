@@ -1,4 +1,4 @@
-# [flick](https://ronterr.github.io/Flick/) - Daveny
+# [flick](https://ronterrr.github.io/Flick/) - Daveny
 
 ## About
 This is the project repository for the **flick** project
@@ -19,9 +19,11 @@ You can preview the live site for this program [here](https://ronterrr.github.io
   Password: adminprivvy</br>
 
 ## What I Used
-1. REACT
-2. GitHub
-3. GitHub Pages
+1. React
+2. Vite
+3. GitHub
+4. GitHub Pages
+5. [The Binary Jazz Genrenator API](https://binaryjazz.us/genrenator-api/)
 
 ## Repository Content
 This repository contains this README file, a license and a `/flick` subfolder. </br></br>
