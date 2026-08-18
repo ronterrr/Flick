@@ -23,7 +23,7 @@ function Main() {
   const [userIndex, setUserIndex] = useState();
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route
             path="/Flick/"
@@ -41,10 +41,16 @@ function Main() {
               )
             }
           />
+          <Route
+            path="/Flick/genrerator"
+            element={
+              isLoggedIn ? <GenAPI/> : <Navigate to="/Flick/login" replace/>
+            }
+            />
+
           <Route path="*" element={<Navigate to="/Flick/" replace />} />
         </Routes>
-      </BrowserRouter> */}
-  <GenAPI userIndex={userIndex}/>
+      </BrowserRouter>
     </>
   );
 }

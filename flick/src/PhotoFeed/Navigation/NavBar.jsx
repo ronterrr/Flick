@@ -1,16 +1,19 @@
-import './navbar.css'
+import { Link } from "react-router";
+import "./navbar.css";
 
-function NavBar(){
-    return(
-        <>
-        <div className="NavBar">
-            <p>Home</p>
-            <p>Explore</p>
-            <p>About</p>
-            <p>Messages</p>
-        </div>
-        </>
-    )
+function NavBar() {
+  return (
+    <>
+      <div className="NavBar">
+        <Link to="/Flick/" className="nav-link">
+          <p>Home</p>
+        </Link>
+        <Link to="/Flick/genrerator" className="nav-link">
+          <p>Genrerator</p>
+        </Link>
+      </div>
+    </>
+  );
 }
 
 export default NavBar;

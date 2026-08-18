@@ -19,3 +19,12 @@
 body.dark-mode .NavBar p:hover{
     color: lightblue;
 }
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+body.dark-mode .nav-link{
+    color: white;
+}

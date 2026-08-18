@@ -11,7 +11,7 @@ function GenAPI({ userIndex = 0 }) {
       <div className="gen-api">
         <div className="top-section">
           <Logo />
-          <h3 className="page-header">MUSIC GENRE GENERATOR</h3>
+          <h3 className="page-header">Genrerator</h3>
           <UserProfile userIndex={userIndex} />
         </div>
         <NavBar/>
