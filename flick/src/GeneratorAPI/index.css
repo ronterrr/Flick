@@ -1,0 +1,65 @@
+.gen-api .top-section {
+  display: flex;
+  /* flex-direction: row; */
+  user-select: none;
+  -moz-user-select: none;
+  align-items: center;
+  margin: 10px 0 0 10px;
+}
+
+.gen-api .top-section .logo {
+  display: flex;
+}
+
+.gen-api .top-section .logo h3 {
+  font-family: "logo";
+  margin: 5px 0 0 10px;
+  font-size: 20px;
+  transition: color ease-in-out 0.5s;
+}
+
+.gen-api .top-section h3:hover {
+  color: green;
+  cursor: pointer;
+}
+
+body.dark-mode .gen-api .top-section h3:hover {
+  color: lightblue;
+}
+
+.gen-api .top-section .logo img {
+  height: 30px;
+  transition: all ease-in-out 0.3s;
+}
+
+.gen-api .top-section .user-profile {
+  display: flex;
+  align-items: center;
+  margin: 0 5px 0 auto;
+}
+
+.gen-api .top-section .user-profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.gen-api .top-section .user-profile p {
+  font-family: "primary";
+  font-size: 10px;
+  margin: 0 5px 0 0;
+  transition: all ease-in-out 0.5s;
+}
+
+.gen-api .top-section .user-profile p:hover{
+    cursor: pointer;
+    color: green;
+}
+
+body.dark-mode .gen-api .top-section .user-profile p:hover{
+    color: lightblue;
+}
+
+body.dark-mode .gen-api .top-section .logo img{
+    filter: invert(1);
+}
