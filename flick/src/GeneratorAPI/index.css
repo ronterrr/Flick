@@ -18,14 +18,25 @@
   transition: color ease-in-out 0.5s;
 }
 
-.gen-api .top-section h3:hover {
+.gen-api .top-section .logo h3:hover {
   color: green;
   cursor: pointer;
 }
 
-body.dark-mode .gen-api .top-section h3:hover {
+.gen-api .top-section .user-profile h3:hover {
+  color: green;
+  cursor: pointer;
+}
+
+body.dark-mode .gen-api .top-section .logo h3:hover {
   color: lightblue;
 }
+
+
+body.dark-mode .gen-api .top-section .user-profile h3:hover {
+  color: lightblue;
+}
+
 
 .gen-api .top-section .logo img {
   height: 30px;
@@ -51,15 +62,21 @@ body.dark-mode .gen-api .top-section h3:hover {
   transition: all ease-in-out 0.5s;
 }
 
-.gen-api .top-section .user-profile p:hover{
-    cursor: pointer;
-    color: green;
+.gen-api .top-section .user-profile p:hover {
+  cursor: pointer;
+  color: green;
 }
 
-body.dark-mode .gen-api .top-section .user-profile p:hover{
-    color: lightblue;
+body.dark-mode .gen-api .top-section .user-profile p:hover {
+  color: lightblue;
 }
 
-body.dark-mode .gen-api .top-section .logo img{
-    filter: invert(1);
+body.dark-mode .gen-api .top-section .logo img {
+  filter: invert(1);
+}
+
+.gen-api .top-section .page-header {
+  font-family: "primary";
+  margin: 0 0 0 auto;
+  transform: translateX(-5%);
 }
