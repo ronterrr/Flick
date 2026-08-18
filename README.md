@@ -13,10 +13,10 @@ To run this website locally:
 6. Enjoy
 
 ## Site
-You can preview the live site for this program [here](https://ronterrr.github.io/Flick/)
-**Note**: The project launches with default login data filled in. For reference, the login data is:
-  Username: admin1
-  Password: adminprivvy
+You can preview the live site for this program [here](https://ronterrr.github.io/Flick/) </br></br>
+**Note**: The project launches with default login data filled in. For reference, the login data is: </br></br>
+  Username: admin1</br>
+  Password: adminprivvy</br>
 
 ## What I Used
 1. REACT
@@ -24,7 +24,7 @@ You can preview the live site for this program [here](https://ronterrr.github.io
 3. GitHub Pages
 
 ## Repository Content
-This repository contains this README file, a license and a `/flick` subfolder.
+This repository contains this README file, a license and a `/flick` subfolder. </br></br>
 The `/flick` subfolder hosts the project files (Under `/src`), configuration files, package files, a .gitignore file and an index.html file.
 
 ## Contact
