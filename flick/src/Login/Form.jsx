@@ -6,8 +6,8 @@ import loginValidator from "../Global/loginValidator";
 
 function Form({ setLoggedIn, setUserIndex }) {
   const [passShow, setPassShow] = useState(false);
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("admin1");
+  const [password, setPassword] = useState("adminprivvy");
   return (
     <>
       <form
